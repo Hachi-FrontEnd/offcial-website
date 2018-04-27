@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <style>
+        .header-inner{
+            margin:0 auto;
+            width:1200px;
+            height:70px;
+        }
+        .header-logo{
+            height:70px;
+            float: left;
+        }
+        .header-logo a{
+            height:70px;
+            display: table-cell;
+            vertical-align: middle;
+        }
+        .header-nav{
+            width:450px;
+            height:70px;
+            float: right;
+        }
+        .header-nav>li{
+            margin:10px 0;
+            height:50px;
+            float: left;
+        }
+
+        .header-nav>li a{
+            display: block;
+            padding:0 20px;
+            height:50px;
+            line-height:50px;
+            color:white;
+            text-decoration: none;
+        }
+        .header-nav>li a:hover{
+            background-color: rgba(0,0,0,0.8);
+            color:red
+        }
+        #solution{
+            position: relative;
+        }
+        #solution ul{
+            display: none;
+            height:200px;
+            position: absolute;
+            bottom:0;
+        }
+
+        #solution-list{
+            background-color: rgba(0,0,0,0.8);
+            text-align: center;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div class="header-inner">
+    <div class="header-logo">
+        <a href="#"><img src="img/case/headLogo.png" alt=""></a>
+    </div>
+    <ul class="header-nav">
+        <li id="solution">
+            <a href="#">解决方案</a>
+            <div id="solution-list">
+                <a href="">智慧家庭</a>
+                <a href="">智慧社区</a>
+                <a href="">智慧酒店</a>
+                <a href="">智慧办公</a>
+                <a href="">智慧商业</a>
+            </div>
+        </li>
+        <li>
+            <a href="#">产品中心</a>
+        </li>
+        <li>
+            <a href="case.html">应用案例</a>
+        </li>
+        <li>
+            <a href="#">关于哈奇</a>
+        </li>
+    </ul>
+</div>
+</body>
+<script src="js/jquery.min.js"></script>
+<script>
+    $("#solution").on({
+        "mouseenter":function(){
+            $("#solution-list").slideDown(200)
+        },
+        "mouseleave":function(){
+            $("#solution-list").slideUp(200)
+        }
+    })
+</script>
+</html>

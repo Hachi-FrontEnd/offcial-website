@@ -1,0 +1,209 @@
+.wrap {
+    min-width:1200px;
+}
+
+/*头部样式*/
+.header{
+    width:100%;
+    height:70px;
+    background-color: #141414;
+}
+.main{
+    width:100%;
+}
+
+.banner{
+    width:100%;
+    height:640px;
+    background-image: url("../img/case/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.chinese{
+    width:100%;
+    height:780px;
+    background-image: url("../img/case/chinese.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+/*.banner img{*/
+    /*width:100%;*/
+    /*height:100%;*/
+/*}*/
+
+/*.chinese img{*/
+    /*width:100%;*/
+    /*height:100%;*/
+/*}*/
+
+.area{
+    width:100%;
+    height:780px;
+    background-color: blue;
+}
+
+.area-img,.area-text{
+    width:50%;
+    height:100%;
+    float: left;
+}
+
+.area-img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.area-img:nth-child(1){
+    background-image: url("../img/case/3.png");
+}
+
+.area-img:nth-child(2){
+    background-image: url("../img/case/2.png");
+}
+
+.area-img:nth-child(3){
+    background-image: url("../img/case/1.png");
+}
+
+.area-img:nth-child(4){
+    background-image: url("../img/case/2.png");
+}
+
+/*.area .area-img img{*/
+    /*width:100%;*/
+    /*height:100%;*/
+/*}*/
+
+/*.area-text样式开始*/
+.area-text{
+    background-color: white;
+}
+
+.text-info{
+    margin:0 auto;
+    padding:80px;
+}
+
+.title span{
+    display: block;
+    text-align: center;
+}
+
+.title span:nth-child(1){
+    font-size:36px ;
+}
+
+.title span:nth-child(2){
+    font-size:20px;
+    color:#b9b9b9;
+    line-height: 40px;
+}
+
+.context,.saying{
+    color:#505050
+}
+
+.context{
+    margin-top:10px;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.people img{
+    display: block;
+    margin:50px auto 30px;
+}
+
+.saying{
+    position: relative;
+    padding-left:40px
+}
+
+.saying span{
+    display: block;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.sayingImg{
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.sayingSpanOne{
+    text-indent: 2em;
+}
+
+.sayingSpanTwo{
+    text-align: right;
+}
+/*.area-text样式结束*/
+
+.area-list{
+    width:100%;
+    /*height:780px;*/
+}
+.area-list div{
+    width:25%;
+    /*height:33.3333%;*/
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.area-list div img{
+    display: block;
+    width:100%;
+}
+/*.area-list div:nth-child(1){*/
+    /*background-image: url("../img/case/a1.png");*/
+/*}*/
+/*.area-list div:nth-child(2){*/
+    /*background-image: url("../img/case/a2.png");*/
+/*}*/
+/*.area-list div:nth-child(3){*/
+    /*background-image: url("../img/case/a3.png");*/
+/*}*/
+/*.area-list div:nth-child(4){*/
+    /*background-image: url("../img/case/a4.png");*/
+/*}*/
+/*.area-list div:nth-child(5){*/
+    /*background-image: url("../img/case/a5.png");*/
+/*}*/
+/*.area-list div:nth-child(6){*/
+    /*background-image: url("../img/case/a6.png");*/
+/*}*/
+/*.area-list div:nth-child(7){*/
+    /*background-image: url("../img/case/a7.png");*/
+/*}*/
+/*.area-list div:nth-child(8){*/
+    /*background-image: url("../img/case/a8.png");*/
+/*}*/
+/*.area-list div:nth-child(9){*/
+    /*background-image: url("../img/case/a9.png");*/
+/*}*/
+/*.area-list div:nth-child(10){*/
+    /*background-image: url("../img/case/a10.png");*/
+/*}*/
+/*.area-list div:nth-child(11){*/
+    /*background-image: url("../img/case/a1.png");*/
+/*}*/
+/*.area-list div:nth-child(12){*/
+    /*background-image: url("../img/case/a12.png");*/
+/*}*/
+
+/*尾部样式*/
+.footer{
+    width:100%;
+    height:450px;
+    background-color: #ffffff;
+    clear: both;
+}
+
+
